@@ -4,89 +4,76 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Gaming theme colors */
+    --background: 220 100% 5%; /* #0A0F1A - deep gaming dark */
+    --foreground: 180 100% 50%; /* #00FFFF - neon cyan */
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 220 100% 8%; /* #0D1420 - dark card */
+    --card-foreground: 180 100% 50%; /* #00FFFF - cyan text */
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 220 100% 8%;
+    --popover-foreground: 180 100% 50%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 180 100% 50%; /* #00FFFF - neon cyan */
+    --primary-foreground: 220 100% 5%; /* dark text on cyan */
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 300 100% 25%; /* #800040 - deep pink */
+    --secondary-foreground: 320 100% 50%; /* #FF0080 - bright pink */
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 220 100% 12%; /* #1A2633 - muted dark */
+    --muted-foreground: 120 100% 50%; /* #00FF00 - neon green */
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 320 100% 50%; /* #FF0080 - neon pink */
+    --accent-foreground: 220 100% 5%; /* dark text */
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 100% 50%; /* #FF0000 - red */
+    --destructive-foreground: 0 0% 100%; /* white */
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 180 100% 20%; /* #003333 - cyan border */
+    --input: 220 100% 12%; /* #1A2633 - input bg */
+    --ring: 120 100% 50%; /* #00FF00 - green ring */
 
     --radius: 0.5rem;
 
-    --sidebar-background: 0 0% 98%;
-
-    --sidebar-foreground: 240 5.3% 26.1%;
-
-    --sidebar-primary: 240 5.9% 10%;
-
-    --sidebar-primary-foreground: 0 0% 98%;
-
-    --sidebar-accent: 240 4.8% 95.9%;
-
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-background: 220 100% 8%;
+    --sidebar-foreground: 180 100% 50%;
+    --sidebar-primary: 120 100% 50%;
+    --sidebar-primary-foreground: 220 100% 5%;
+    --sidebar-accent: 320 100% 50%;
+    --sidebar-accent-foreground: 220 100% 5%;
+    --sidebar-border: 180 100% 20%;
+    --sidebar-ring: 120 100% 50%;
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
-
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
-
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
-
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
-
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
-
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
-
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
-
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    /* Same as root for consistent gaming theme */
+    --background: 220 100% 5%;
+    --foreground: 180 100% 50%;
+    --card: 220 100% 8%;
+    --card-foreground: 180 100% 50%;
+    --popover: 220 100% 8%;
+    --popover-foreground: 180 100% 50%;
+    --primary: 180 100% 50%;
+    --primary-foreground: 220 100% 5%;
+    --secondary: 300 100% 25%;
+    --secondary-foreground: 320 100% 50%;
+    --muted: 220 100% 12%;
+    --muted-foreground: 120 100% 50%;
+    --accent: 320 100% 50%;
+    --accent-foreground: 220 100% 5%;
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 180 100% 20%;
+    --input: 220 100% 12%;
+    --ring: 120 100% 50%;
+    --sidebar-background: 220 100% 8%;
+    --sidebar-foreground: 180 100% 50%;
+    --sidebar-primary: 120 100% 50%;
+    --sidebar-primary-foreground: 220 100% 5%;
+    --sidebar-accent: 320 100% 50%;
+    --sidebar-accent-foreground: 220 100% 5%;
+    --sidebar-border: 180 100% 20%;
+    --sidebar-ring: 120 100% 50%;
   }
 }
 
@@ -96,6 +83,46 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-open-sans;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-montserrat font-bold;
+  }
+}
+
+@layer components {
+  .neon-glow {
+    @apply shadow-lg;
+    box-shadow:
+      0 0 20px currentColor,
+      0 0 40px currentColor,
+      0 0 60px currentColor;
+  }
+
+  .neon-text {
+    text-shadow:
+      0 0 10px currentColor,
+      0 0 20px currentColor,
+      0 0 30px currentColor;
+  }
+
+  .cyber-gradient {
+    background: linear-gradient(135deg, #00ffff 0%, #ff0080 50%, #39ff14 100%);
+  }
+
+  .gaming-card {
+    @apply bg-card border border-cyan-500/30 rounded-lg p-6;
+    background: linear-gradient(
+      135deg,
+      rgba(0, 255, 255, 0.1) 0%,
+      rgba(255, 0, 128, 0.1) 100%
+    );
+    backdrop-filter: blur(10px);
   }
 }

@@ -18,6 +18,10 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'montserrat': ['Montserrat', 'sans-serif'],
+				'open-sans': ['Open Sans', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -61,6 +65,18 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Gaming theme colors
+				neon: {
+					cyan: '#00FFFF',
+					pink: '#FF0080', 
+					green: '#39FF14',
+					purple: '#8A2BE2'
+				},
+				gaming: {
+					dark: '#1A1A1A',
+					darker: '#0F0F0F',
+					gray: '#2A2A2A'
 				}
 			},
 			borderRadius: {
