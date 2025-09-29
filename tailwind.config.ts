@@ -66,17 +66,13 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Gaming theme colors
-				neon: {
-					cyan: '#00FFFF',
-					pink: '#FF0080', 
-					green: '#39FF14',
-					purple: '#8A2BE2'
-				},
-				gaming: {
-					dark: '#1A1A1A',
-					darker: '#0F0F0F',
-					gray: '#2A2A2A'
+				// Modern streamer colors
+				stream: {
+					purple: '#8B5CF6',
+					orange: '#F97316',
+					blue: '#3B82F6',
+					green: '#10B981',
+					red: '#EF4444'
 				}
 			},
 			borderRadius: {
